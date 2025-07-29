@@ -106,3 +106,5 @@ def calculate_completion_rate(assignments_df):
     total = len(assignments_df)
     
     return (completed / total) * 100 if total > 0 else 0
+
+Move calculations to utils
