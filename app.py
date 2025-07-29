@@ -5,7 +5,6 @@ import plotly.graph_objects as go
 from datetime import datetime, timedelta
 from utils.data_manager import get_courses_df, get_carry_marks_df, get_assignments_df
 from utils.calculations import calculate_carry_percentage, calculate_current_grade, get_grade_letter, calculate_completion_rate
-
 def analytics_tab():
     """Analytics and insights dashboard"""
     st.header("📊 Personal Insights & Analytics")
