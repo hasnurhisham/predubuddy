@@ -84,5 +84,3 @@ def delete_assignment(index):
     """Delete an assignment"""
     if 0 <= index < len(st.session_state.assignments):
         del st.session_state.assignments[index]
-
-Move data_manager to utils
